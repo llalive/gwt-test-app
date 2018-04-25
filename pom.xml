@@ -5,10 +5,10 @@
   <!-- POM file generated with GWT webAppCreator -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>ru.llalive.gwttestapp</groupId>
-  <artifactId>Gwt_test_app</artifactId>
+  <artifactId>GwtTestApp</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>ru.llalive.gwttestapp.Gwt_test_app</name>
+  <name>ru.llalive.gwttestapp.GwtTestApp</name>
 
   <properties>
 
@@ -99,7 +99,7 @@
           <classpathScope>compile+runtime</classpathScope>
           <!-- URL(s) that should be opened by DevMode (gwt:devmode). -->
           <startupUrls>
-            <startupUrl>Gwt_test_app.html</startupUrl>
+            <startupUrl>GwtTestApp.html</startupUrl>
           </startupUrls>
         </configuration>
       </plugin>

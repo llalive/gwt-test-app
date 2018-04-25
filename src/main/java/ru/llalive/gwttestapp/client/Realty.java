@@ -39,7 +39,7 @@ public class Realty {
 		this.address = address;
 	}
 
-	private class Address {
+	public class Address {
 		private int country;
 		private int postcode;
 		private String region;

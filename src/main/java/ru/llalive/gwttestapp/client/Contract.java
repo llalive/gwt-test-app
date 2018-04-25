@@ -2,6 +2,8 @@ package ru.llalive.gwttestapp.client;
 
 import java.util.Date;
 
+import com.ibm.icu.text.SimpleDateFormat;
+
 public class Contract {
 
 	private int id;
@@ -108,5 +110,10 @@ public class Contract {
 	public void setDatePeriod(Date startDate, Date endDate) {
 		this.dateStart = startDate;
 		this.dateEnd = endDate;
+	}
+
+	public String getDatePeriod() {
+		SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
+		return sdf.format(dateStart + " - " + sdf.format(dateEnd));
 	}
 }
